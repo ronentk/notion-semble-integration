@@ -1,0 +1,29 @@
+{
+  "name": "notion-semble-webhook",
+  "version": "1.0.0",
+  "description": "Webhook server to sync Notion pages to Semble",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env.dev --watch server.js",
+    "prod": "node --env-file=.env.prod server.js",
+    "test": "node --env-file=.env.dev server.js"
+  },
+  "keywords": [
+    "notion",
+    "semble",
+    "webhook",
+    "cosmik"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmik.network/semble-pds-client": "^0.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
