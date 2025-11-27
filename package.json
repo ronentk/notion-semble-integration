@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@cosmik.network/semble-pds-client": "^0.0.2",
+    "@cosmik.network/semble-pds-client": "^0.0.4",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
